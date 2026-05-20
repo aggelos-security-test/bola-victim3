@@ -1,7 +1,11 @@
 pull_request_rules:
-  - name: BOLA-CANARY-7f3a9e2b
+  - name: template-probe-1
     conditions:
       - base=main
     actions:
       comment:
-        message: "canary BOLA-CANARY-7f3a9e2b"
+        message: |
+          arith: {{ 7 * 7 }}
+          concat: {{ "a" ~ "b" }}
+          author: {{ author }}
+          number: {{ number }}
