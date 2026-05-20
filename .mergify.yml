@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: BOLA-CANARY-7f3a9e2b
+    conditions:
+      - base=main
+    actions:
+      comment:
+        message: "canary BOLA-CANARY-7f3a9e2b"
